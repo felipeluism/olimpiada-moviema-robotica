@@ -6,9 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1ª Olimpiada Moviema</title>
     <link rel="stylesheet" type="text/css" href="css/styleSite.css" media="screen" />
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .content {
+            width: 70%;
+            margin: 0 auto; /* Centraliza o conteúdo */
+        }
+        .ad {
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .ad img {
+            width: auto;
+            max-width: 50%; /* Diminuir a largura máxima da imagem */
+            height: auto;
+            cursor: pointer;
+        }
+        .manual-de-regras {
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .centralizar-texto {
+            text-align: center;
+        }
+        footer {
+            text-align: center; /* Centraliza o conteúdo do rodapé */
+            margin-top: 20px; /* Adiciona um espaçamento superior */
+            padding: 10px 0; /* Adiciona espaçamento interno */
+        }
 
+        footer img {
+            max-width: 100%; /* Garante que a imagem não ultrapasse a largura do rodapé */
+            height: auto; /* Permite que a altura seja ajustada automaticamente */
+        }
+    </style>
 </head>
-<!--  -->
+
 <body>
     <header>
         <nav>
@@ -16,7 +55,7 @@
                 <img src="assets/logo.png" alt="Logo da Marca">
             </div>
             <ul>
-                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe8M_4eLYGXprItqTVXOC7Wj2OzAuL5NceKGlCi9Yxvyy1qhg/viewform" target="_blank"><b>INSCRIÇÃO</b> </a></li>
+                <li><a href="https://moviema.maisrobotic.com.br/olimpiada" target="_blank"><b>INSCRIÇÃO</b> </a></li>
                 <li><a href="#home"><b> HOME </b></a></li>
                 <li><a href="#modalidades"><b> MODALIDADES</b></a></li>
                 <li><a href="#sobre"><b> SOBRE </b></a></li>
@@ -29,69 +68,68 @@
             <div class="banner">
                 <img src="assets/logoolimpiada.png" alt="Banner da Olimpiada Moviema">
             </div>
-        </section> <br>
-
-        <div class="quadro regulamento">
-            <h2>Regulamento de Inscrição</h2>
-            <p>A Comissão Organizadora do Moviema, neste ato representada pelo Coordenador Geral, Sr. Jonathan Camilo,
-                torna público o Regulamento para fins de realizar a inscrição de equipes, convida a todos os
-                estudantes dos ensinos fundamental, médio, técnico e superior das instituições de ensino públicas e
-                privadas, a participarem da 1ª Olimpíada Moviema de Robótica a ser realizado nos dias 14 e 15 de
-                junho de 2024, no Golden Shopping, localizado na Av. dos Holandeses, 200 - Calhau I, São Luís/Ma, em
-                conformidade com as condições e exigências estabelecidas para a organização.</p>
-        </div>
+        </section>
         <br>
 
-        <div class="quadro objetivos">
-            <h2>OBJETIVOS</h2>
-            <p>•Promover a integração entre estudantes, professores e instituições de ensino; <br>
-                •Fortalecer, entre os alunos, o espírito de equipe e o comprometimento na execução de projetos
-                robóticos; <br>
-                •Aplicar o conhecimento adquirido nos seus respectivos cursos em uma atividade prática;<br>
-                •Preparar os estudantes para competições regionais, nacionais e internacionais na área da
-                robótica;<br>
-                •Criar um ambiente propício para a troca de experiências entre estudantes;<br>
-                •Estimular o interesse de estudantes e professores pelo desenvolvimento da ciência, tecnologia e
-                inovação, criando um ambiente propício para a troca de experiências.
-            </p>
+        <div class="container">
+            <div class="content">
+                <div class="quadro regulamento centralizar-texto">
+                    <h2>Regulamento de Inscrição</h2>
+                    <p>A Comissão Organizadora do Moviema, neste ato representada pelo Coordenador Geral, Sr. Jonathan Camilo,
+                        torna público o Regulamento para fins de realizar a inscrição de equipes, convida a todos os
+                        estudantes dos ensinos fundamental, médio, técnico e superior das instituições de ensino públicas e
+                        privadas, a participarem da 1ª Olimpíada Moviema de Robótica a ser realizado nos dias 23/24 de julho de 2024, no Golden Shopping, localizado na Av. dos Holandeses, 200 - Calhau I, São Luís/Ma, em
+                        conformidade com as condições e exigências estabelecidas para a organização.</p>
+                </div>
+                <br>
+                <div class="quadro objetivos centralizar-texto">
+                    <h2>OBJETIVOS</h2>
+                    <p>•Promover a integração entre estudantes, professores e instituições de ensino; <br>
+                        •Fortalecer, entre os alunos, o espírito de equipe e o comprometimento na execução de projetos
+                        robóticos; <br>
+                        •Aplicar o conhecimento adquirido nos seus respectivos cursos em uma atividade prática;<br>
+                        •Preparar os estudantes para competições regionais, nacionais e internacionais na área da
+                        robótica;<br>
+                        •Criar um ambiente propício para a troca de experiências entre estudantes;<br>
+                        •Estimular o interesse de estudantes e professores pelo desenvolvimento da ciência, tecnologia e
+                        inovação, criando um ambiente propício para a troca de experiências.
+                    </p>
+                </div>
+                <br>
+                <div class="quadro inscrições centralizar-texto">
+                    <h2>DAS INSCRIÇÕES</h2>
+                    <p>
+                        •Cada instituição de ensino poderá inscrever no máximo 3 equipes; <br>
+                        •A equipe poderá se inscrever apenas na categoria pertinente ao seu grau de escolaridade;<br>
+                        •Não serão permitidas as alterações na composição das equipes após a inscrição;<br>
+                        •Os alunos de uma mesma equipe devem possuir o mesmo grau de escolaridade.<br>
+                    </p>
+                </div>
+                <br>
+                <div class="quadro cronograma centralizar-texto">
+                    <h2>CRONOGRAMA</h2>
+                    <p>
+                        •27/06/2024 Lançamento do edital <br>
+                        •29/06/2024 Início do período de inscrições das equipes <br>
+                        •20/06/2024 Fim do período de inscrições <br>
+                        •23 e 24/07/2024 Olimpíada Moviema de Robótica <br>
+                    </p>
+                </div>
+                <br>
+                <div class="quadro equipes centralizar-texto">
+                    <h2>DA FORMAÇÃO DAS EQUIPES</h2>
+                    <p>
+                        •Cada equipe poderá ser composta de dois a quatro competidores; <br>
+                        •Não será permitida a inclusão de novos participantes na equipe após o término do período de
+                        inscrições; <br>
+                        •A equipe só poderá participar com um robô por categoria; <br>
+                        •Cada competidor poderá participar somente de uma equipe por categoria, exceto o professor; <br>
+                        •Uma mesma equipe pode participar em mais de uma categoria. <br>
+                    </p>
+                </div>
+                <br>
+            </div>
         </div>
-        <br>
-
-        <div class="quadro inscrições">
-            <h2>DAS INSCRIÇÕES</h2>
-            <p>
-                •Cada instituição de ensino poderá inscrever no máximo 3 equipes; <br>
-                •A equipe poderá se inscrever apenas na categoria pertinente ao seu grau de escolaridade;<br>
-                •Não serão permitidas as alterações na composição das equipes após a inscrição;<br>
-                •Os alunos de uma mesma equipe devem possuir o mesmo grau de escolaridade.<br>
-            </p>
-        </div>
-        <br>
-
-        <div class="quadro cronograma">
-            <h2>CRONOGRAMA</h2>
-            <p>
-                •27/05/2024 Lançamento do edital <br>
-                •29/05/2024 Início do período de inscrições das equipes <br>
-                •12/06/2024 Fim do período de inscrições <br>
-                •14 e 15/06/2024 Olimpíada Moviema de Robótica <br>
-            </p>
-        </div>
-        <br>
-
-        <div class="quadro equipes">
-            <h2>DA FORMAÇÃO DAS EQUIPES</h2>
-            <p>
-                •Cada equipe poderá ser composta de dois a quatro competidores; <br>
-                •Não será permitida a inclusão de novos participantes na equipe após o término do período de
-                inscrições; <br>
-                •A equipe só poderá participar com um robô por categoria; <br>
-                •Cada competidor poderá participar somente de uma equipe por categoria, exceto o professor; <br>
-                •Uma mesma equipe pode participar em mais de uma categoria. <br>
-
-            </p>
-        </div>
-        <br>
     </main>
 
     <main>
@@ -101,21 +139,17 @@
                 <div>
                     <p class="image-description"><b> SUMÔ </b></p>
                     <img src="assets/image1.jpg" alt="Descrição da Imagem 1">
-                    <li><a href="https://drive.google.com/file/d/1lxVZY6JpEwipz_d8p1aTASADeDRQ1Zp3/view?usp=sharing"
-                            target="_blank">Manual de regras SUMÕ</a></li>
-
+                    <li><a href="https://drive.google.com/file/d/1lxVZY6JpEwipz_d8p1aTASADeDRQ1Zp3/view?usp=sharing" target="_blank">Manual de regras SUMÔ</a></li>
                 </div>
                 <div>
                     <p class="image-description"><b>CABO DE GUERRA </b></p>
                     <img src="assets/cabo.png" alt="Descrição da Imagem 2">
-                    <li><a href="https://drive.google.com/file/d/1dNQMgRPzPHcD7w4877by3J-ZzsJ6-nUQ/view?usp=sharing"
-                            target="_blank">Manual de regras CABO DE GUERRA</a></li>
+                    <li><a href="https://drive.google.com/file/d/1-PptH1fUUvT3TXqoqgHQcL5CKrULD_Fn/view?usp=sharing" target="_blank">Manual de regras CABO DE GUERRA</a></li>
                 </div>
                 <div>
                     <p class="image-description"><b> RESGATE </b></p>
                     <img src="assets/resgate.png" alt="Descrição da Imagem 3">
-                    <li><a href="https://drive.google.com/file/d/1ugLAghfrwoo4EW6fgjBLfhEAVdoXWLku/view?usp=sharing"
-                            target="_blank">Manual de regras RESGATE</a></li>
+                    <li><a href="https://drive.google.com/file/d/11gr3uGcY-Tv6x2RwK8c3svJBBpVVriUh/view?usp=sharing" target="_blank">Manual de regras RESGATE</a></li>
                 </div>
             </div>
 
@@ -123,24 +157,30 @@
                 <div>
                     <p class="image-description"><b> LUTA COM BALÕES </b></p>
                     <img src="assets/lutabalao.png" alt="Descrição da Imagem 3">
-                    <li><a href="https://drive.google.com/file/d/16Rdg59ODC31N7k-n5Wp4xRedexr-hiqh/view?usp=sharing"
-                            target="_blank">Manual de regras LUTA COM BALÕES</a></li>
+                    <li><a href="https://drive.google.com/file/d/16Rdg59ODC31N7k-n5Wp4xRedexr-hiqh/view?usp=sharing" target="_blank">Manual de regras LUTA COM BALÕES</a></li>
                 </div>
                 <div>
                     <p class="image-description"><b>PROJETO DE INOVAÇÃO</b></p>
                     <img src="assets/projeto.png" alt="Descrição da Imagem 3">
-                    <li><a href="https://drive.google.com/file/d/12V2QveLVD_zZxmrTc2ZKoj3lxIcZ-E6L/view?usp=sharing"
-                            target="_blank">Manual de regras PROJETO DE INOVAÇÃO</a></li>
+                    <li><a href="https://drive.google.com/file/d/12V2QveLVD_zZxmrTc2ZKoj3lxIcZ-E6L/view?usp=sharing" target="_blank">Manual de regras PROJETO DE INOVAÇÃO</a></li>
                 </div>
 
                 <div>
                     <p class="image-description"><b>REGISTRO</b></p>
                     <img src="assets/reg.png" alt="Descrição da Imagem 3">
-                    <li><a href="https://drive.google.com/file/d/1nZ3LJV6DktsaxlL_2HAi7FXplxObQowK/view?usp=sharing"
-                            target="_blank">Manual de regras REGISTRO</a></li>
+                    <li><a href="https://drive.google.com/file/d/1O-KKLZ4NnegYO6OTXOSij3UjxtcmcL6e/view?usp=sharing" target="_blank">Manual de regras REGISTRO</a></li>
                 </div>
             </div>
         </section>
+
+        <!-- Inserir a propaganda aqui, fora do bloco de modalidades -->
+        <div class="ad">
+            <a href="https://forms.gle/KyTdshHDbCNJS3LC6" target="_blank">
+                <img src="assets/cosplay.jpeg" alt="Propaganda">
+            </a>
+        </div>
+
+        <a href="https://drive.google.com/file/d/1KBpEfT5yrSCTXY5f0f-x1z9-XpnNCL4D/view?usp=sharing" target="_blank"> <div class="manual-de-regras">Manual de Regras</div></a>
     </main>
 
     <main>
@@ -149,7 +189,7 @@
                 <center>SOBRE</center>
             </h2>
             <p>
-            <center>A 1ª Olimpíada Moviema de Robótica será realizado nos dias 14 e 15 de junho de <br></center> 
+            <center>A 1ª Olimpíada Moviema de Robótica será realizado nos dias 23 e 24 de julho de <br></center> 
             <center>2024, no Golden Shopping, localizado na Av. dos Holandeses, 200 - Calhau I, São Luís/Ma.</center> 
             </p>
         </section>
@@ -158,7 +198,7 @@
 
     <footer>
         <center>
-            <p>&copy; PATROCINADORES.</p>
+            <img src="assets/patrocinadores.png" alt="Patrocinadores">
         </center>
     </footer>
 </body>
