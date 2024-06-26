@@ -10,6 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
+    border-bottom: 1px solid black;
 }
 
 nav {
@@ -213,6 +214,7 @@ nav ul li a:hover {
 footer {
     background-color: #ffffff;
     /* Preto */
+    border-top: 1px solid black;
     color: #FFFFFF;
     /* Branco */
     text-align: center;
