@@ -93,6 +93,48 @@ nav ul li a:hover {
     transition: .5s;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.content {
+    width: 70%;
+    margin: 0 auto; /* Centraliza o conteúdo */
+}
+.event-Matsuri-Ads {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.event-Matsuri-Ads li {
+    margin: 20px 0;
+    list-style-type: none;
+}
+
+.event-Matsuri-Ads li a {
+    padding: 20px 0;
+    text-decoration: none;
+}
+
+.event-Matsuri-Ads img {
+    width: auto;
+    max-width: 50%; /* Diminuir a largura máxima da imagem */
+    height: auto;
+    cursor: pointer;
+}
+.manual-de-regras {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.centralizar-texto {
+    text-align: center;
+}
+
 .inscreva:hover {
     cursor: pointer;
     background-color: #515151;
@@ -172,15 +214,17 @@ nav ul li a:hover {
     margin: 10px;
 }
 
+.event-Matsuri-Ads li a,
 .images-container div li,
 .images-containerbaixo div li {
     list-style-type: none;
     background-color: red;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: .2s;
 }
 
+.event-Matsuri-Ads li a,
 .images-container div li a,
 .images-containerbaixo div li a {
     color: white;
@@ -188,6 +232,8 @@ nav ul li a:hover {
     transition: .2s;
 }
 
+
+.event-Matsuri-Ads li a:hover,
 .images-container div li:hover,
 .images-containerbaixo div li:hover {
     background-color: green;
@@ -211,18 +257,6 @@ nav ul li a:hover {
     text-align: center;
 }
 
-footer {
-    background-color: #ffffff;
-    /* Preto */
-    border-top: 1px solid black;
-    color: #FFFFFF;
-    /* Branco */
-    text-align: center;
-    padding: 10px 0;
-
-    bottom: 0;
-    width: 100%;
-}
 
 .inscreva .no-link {
     font-weight: bold;
@@ -243,3 +277,20 @@ footer {
             height: auto; /* Manter a proporção da imagem */
             display: block; /* Remover espaço em branco ao redor da imagem */
         }
+
+        
+footer {
+    background-color: #ffffff;
+    margin-top: 20px;
+    border-top: 1px solid black;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer img {
+    max-width: 100%;
+    height: auto;
+}
