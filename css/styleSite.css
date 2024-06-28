@@ -250,7 +250,7 @@ nav ul li a:hover {
 .event-Matsuri-Ad li a:hover,
 .images-container div li:hover,
 .images-containerbaixo div li:hover {
-    background-color: blue;
+    background-color: rgb(13, 160, 245);
     font-size: 17px;
     transition: .2s;
 }
