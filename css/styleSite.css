@@ -48,7 +48,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: #b4b4b4;
+    background: #9e3a3a;
     color: #464646;
     -moz-box-shadow: 0 3px 10px 0 #CCC;
     -webkit-box-shadow: 0 3px 10px 0 #ccc;
@@ -56,13 +56,13 @@ nav ul li a:hover {
 }
 
 .banner {
-    background-image: url("../assets/logoolimpiada.png   ");
+    background-color: gray;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: auto;
-    height: 450px;
+    width: 100%;
+    height: 651px;
     gap: 30px;
 }
 
@@ -186,10 +186,24 @@ nav ul li a:hover {
 
 
 .modalidade {
-
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+}
+
+@media (max-width: 830px) {
+    .modalidade {
+        display: flex;
+        flex-direction: column;
+    }
+    .images-container, .images-containerbaixo{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner {
+        display: none;
+        height: auto;
+    }
 }
 
 .modalidade img {
